@@ -108,7 +108,7 @@
   } 
 */
 .go-after::after {
-  content: "";
+  content: '';
   display: inline-block;
   width: 0.5em;
   height: 0.5em;
@@ -165,7 +165,7 @@
 
 @media (min-height: 820px) {
   body {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
